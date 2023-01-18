@@ -4,17 +4,20 @@ import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <body class="p-10">
+    
+  
+  <header class="flex justify-center gap-20">
+<img src="../img/logo.svg" class="">
+    
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+
   </header>
 
   <main>
     <TheWelcome />
   </main>
+</body>
 </template>
 
 <style scoped>
