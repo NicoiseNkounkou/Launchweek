@@ -5,7 +5,9 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <body class="p-10">
-    
+    <router-link to="/">Home</router-link>
+    <router-link to="/Infos">Infos pratiques</router-link>
+    <router-link to="/RejoignezNous">Rejoignez-nous</router-link>
   
   <header class="flex justify-center gap-20">
 <img src="../img/logo.svg" class="">
