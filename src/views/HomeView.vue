@@ -43,22 +43,7 @@
           <img src="/img/iPhone12Render:orange.png" class="">
         </div>
       </div>
-<footer>
-    <div class="pb-10">
-    <img src="/img/Line 10.png" alt="">
-    </div>
-    <div class="flex justify-center">
-    <img src="/img/logo.svg" >
-    </div>
 
-    <div>
-        <ul class="flex flex-row justify-center gap-10 pt-10 pb-10 ">
-            <li class="cursor-pointer underline">iim.fr</li>
-            <li class="cursor-pointer">Contacts</li>
-            <li class="cursor-pointer">Cookies</li>
-        </ul>
-    </div>
-</footer>
 </template>
 <script>
 export default {

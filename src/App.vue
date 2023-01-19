@@ -4,14 +4,14 @@ import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
- <img src="../img/logo.svg" class="p">
+
   <body class="">
     <router-link to="/">Home</router-link>
     <router-link to="/Infos">Infos pratiques</router-link>
     <router-link to="/RejoignezNous">Rejoignez-nous</router-link>
 
     <header class="flex justify-center gap-20">
-     
+
 
 
 
@@ -20,10 +20,26 @@ import TheWelcome from './components/TheWelcome.vue'
     <main>
       <router-view />
 
-      
-      
+
+
 
     </main>
+    <footer>
+      <div class="pb-10">
+        <img src="/img/Line 10.png" alt="">
+      </div>
+      <div class="flex justify-center">
+        <img src="/img/logo.svg">
+      </div>
+
+      <div>
+        <ul class="flex flex-row justify-center gap-10 pt-10 pb-10 ">
+          <li class="cursor-pointer underline">iim.fr</li>
+          <li class="cursor-pointer">Contacts</li>
+          <li class="cursor-pointer">Cookies</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </template>
 
