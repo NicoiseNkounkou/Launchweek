@@ -4,22 +4,27 @@ import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <body class="p-10">
+ <img src="../img/logo.svg" class="p">
+  <body class="">
     <router-link to="/">Home</router-link>
     <router-link to="/Infos">Infos pratiques</router-link>
     <router-link to="/RejoignezNous">Rejoignez-nous</router-link>
-  
-  <header class="flex justify-center gap-20">
-<img src="../img/logo.svg" class="">
-    
+
+    <header class="flex justify-center gap-20">
+     
 
 
-  </header>
 
-  <main>
-    <TheWelcome />
-  </main>
-</body>
+    </header>
+
+    <main>
+      <router-view />
+
+      
+      
+
+    </main>
+  </body>
 </template>
 
 <style scoped>
