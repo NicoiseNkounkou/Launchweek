@@ -6,13 +6,14 @@ import TheWelcome from './components/TheWelcome.vue'
 <template>
 
   <body class="">
-    <router-link to="/">Home</router-link>
-    <router-link to="/Infos">Infos pratiques</router-link>
-    <router-link to="/RejoignezNous">Rejoignez-nous</router-link>
+<header class=" flex justify-end"  >
 
-    <header class="flex justify-center gap-20">
+      <div class=" flex justify-end  gap-[1rem] mr-[5rem] mt-[1rem] items-center text-slate-800 z-30 ">
+      <router-link class="border-b-2 border-gray-600"  to="/">Home</router-link>
+      <router-link to="/Infos">Infos pratiques</router-link>
+      <router-link class="border-2  p-2 rounded-xl border-gray-600" to="/Presentation">Présentation</router-link> 
 
-
+    </div>
 
 
     </header>
@@ -26,7 +27,7 @@ import TheWelcome from './components/TheWelcome.vue'
     </main>
     <footer>
       <div class="pb-10">
-        <img src="/img/Line 10.png" alt="">
+        <img src="/img/Line10.png" alt="">
       </div>
       <div class="flex justify-center">
         <img src="/img/logo.svg">
