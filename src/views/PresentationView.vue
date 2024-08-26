@@ -1,4 +1,4 @@
-<template lang="">
+<!-- <template lang="">
     <div>
         <div>
             <img class="absolute left-0 top-0" src="/img/shadow.png" alt="">
@@ -104,7 +104,7 @@
 
 
                 </div>
-            </div>
+            </div> 
     
         </section>
     </section>
@@ -138,4 +138,24 @@ export default {
 </script>
 <style lang="">
     
-</style>
+</style> -->
+
+<template lang="">
+    <div class="relative">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover" src="/img/shadow.png" alt="">
+        </div>
+        <div class="absolute top-4 left-4 sm:left-10">
+            <img src="/img/logo.png" alt="logo de l'asso entr'iim">
+        </div>
+    
+        <div class="flex flex-col sm:flex-row justify-center items-center pt-20 gap-8">
+            <img class="w-3/4 sm:w-1/3" src="/img/pageArticle.png" alt="image de la page article de l'app">
+            <div class="flex flex-col items-center sm:items-start gap-8">
+                <!-- <img class="w-full sm:w-3/4" src="/img/utilisation.png" alt="">
+                <img class="w-full sm:w-3/4" src="/img/usingText.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+    </template>
+    

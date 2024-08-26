@@ -1,4 +1,4 @@
-<template lang="">
+<!-- <template lang="">
 <div class="pl-48 pt-16">
     <img src="/img/logo.svg" class="w-1/4">
 </div>
@@ -41,4 +41,38 @@ export default {
 </script>
 <style >
 
-</style>
+</style> -->
+
+<template lang="">
+    <div class="px-4 sm:px-8 lg:px-20 pt-16">
+        <img src="/img/logo.svg" class="w-3/4 sm:w-1/4 mx-auto">
+    </div>
+    <div class="pt-16">
+        <p class="text-gray-700 text-2xl text-center m-8 ">Les membres de l'association : </p>
+    </div>
+    
+    <div>
+        <p class="text-gray-700 text-xl text-center ">Le Bureau</p>
+    </div>
+    
+    <div class="flex flex-col sm:flex-row justify-center gap-8 px-4 sm:px-8 lg:px-20">
+        <img src="/img/photo-Arthur.svg" class="w-full sm:w-1/2 lg:w-2/5">
+        <img src="/img/photo-Eliott.svg" class="w-full sm:w-1/2 lg:w-2/5">
+    </div>
+    <div class="flex flex-col sm:flex-row justify-center gap-8 px-4 sm:px-8 lg:px-20 pt-8">
+        <img src="/img/photo-Emilie.svg" class="w-full sm:w-1/2 lg:w-2/5">
+        <img src="/img/photo-Camille.svg" class="w-full sm:w-1/2 lg:w-2/5">
+    </div>
+    
+    <div class="pt-16">
+        <p class="text-gray-700 text-xl text-center">Le Pôle Tech</p>
+    </div>
+    <div class="flex flex-col sm:flex-row justify-center gap-8 px-4 sm:px-8 lg:px-20">
+        <img src="/img/photo-Sarah.svg" class="w-full sm:w-1/2 lg:w-2/5">
+        <img src="/img/photo-Jerome.svg" class="w-full sm:w-1/2 lg:w-2/5">
+    </div>
+    <div class="flex justify-center mt-16">
+        <button class="bg-orange-500 px-8 py-3 rounded-lg text-white">Rejoins-nous</button>
+    </div>
+    </template>
+    
